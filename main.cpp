@@ -19,11 +19,14 @@ void deleteTree(Node* node)
 {
     if (node == nullptr)
         return;
+    // Return when it reached the leaf node.
 
     deleteTree(node->left);
     deleteTree(node->right);
+    // Recursively access the left and right node.
 
     delete node;
+    // delete the current node.
 }
 
 int main()
