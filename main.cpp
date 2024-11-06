@@ -29,6 +29,14 @@ void deleteTree(Node* node)
     // delete the current node.
 }
 
+void preorder(Node* node)
+{
+    if (node == nullptr)
+        return;
+    std::cout << node->data << " ";
+    preorder(node->left);
+    preorder(node->right);
+}
 int main()
 {
     Node* root = newNode(1);
@@ -44,8 +52,9 @@ int main()
     root -> left -> right -> left = newNode(9);
     root -> right -> right -> left = newNode(15);
 
+    std::cout << "Preorder:" <<std::endl;
+    preorder(root);
 
     deleteTree(root);
-    std::cout << "Hello, World!" << std::endl;
     return 0;
 }

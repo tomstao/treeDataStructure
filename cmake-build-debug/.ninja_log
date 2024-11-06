@@ -1,3 +1,7 @@
 # ninja log v6
 0	358	1730559163094726336	CMakeFiles/treeDataStructure.dir/main.cpp.o	8d4ce5bd76547e63
 360	444	1730559163453772292	treeDataStructure	3fdb8629cffef04c
+5	437	1730896347744757659	CMakeFiles/treeDataStructure.dir/main.cpp.o	8d4ce5bd76547e63
+437	530	1730896348176658139	treeDataStructure	3fdb8629cffef04c
+5	289	1730896359991637374	CMakeFiles/treeDataStructure.dir/main.cpp.o	8d4ce5bd76547e63
+289	314	1730896360276250639	treeDataStructure	3fdb8629cffef04c
